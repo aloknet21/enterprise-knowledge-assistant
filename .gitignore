@@ -1,0 +1,25 @@
+# Virtual Environment
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Data Files
+data/raw_documents/
+data/extracted_text/
+data/processed_documents/
+
+# LanceDB
+vectorstore/lancedb/
+
+# Environment Variables
+.env
+
+# VS Code
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
