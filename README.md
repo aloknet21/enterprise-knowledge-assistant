@@ -27,13 +27,12 @@ streamlit run app.py
 git add .
 git commit -m "Day 2 - PDF ingestion and chunking completed"
 
-# If Git is not initialized:
+# Whenever you make changes:
 
-git init
-
+git status
 git add .
-
-git commit -m "Initial RAG ingestion pipeline"
+git commit -m "Meaningful description of changes"
+git push origin main
 
 
 # Enterprise Knowledge Assistant
