@@ -35,3 +35,47 @@ git add .
 
 git commit -m "Initial RAG ingestion pipeline"
 
+
+# Enterprise Knowledge Assistant
+
+A local Retrieval-Augmented Generation (RAG) application built using:
+
+## Technology Stack
+
+- Python 3.12
+- Streamlit
+- LangChain
+- Ollama
+- nomic-embed-text
+- LanceDB
+- Qwen3
+
+## Features
+
+✅ PDF Upload  
+✅ Text Extraction  
+✅ Document Chunking  
+✅ Vector Embeddings  
+✅ Semantic Search  
+✅ Context Retrieval  
+✅ Qwen3 Answer Generation  
+✅ RAG-based Question Answering  
+
+## Architecture
+
+PDF
+↓
+Text Extraction
+↓
+Chunking
+↓
+nomic-embed-text
+↓
+LanceDB
+↓
+Semantic Search
+↓
+Qwen3
+↓
+Answer
+
