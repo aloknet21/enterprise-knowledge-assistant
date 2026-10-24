@@ -1,9 +1,3 @@
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from ingestion.chunker import split_text
 
-def split_text(text):
-    splitter = RecursiveCharacterTextSplitter(
-        chunk_size=1000,
-        chunk_overlap=200
-    )
-
-    return splitter.split_text(text)
+__all__ = ["split_text"]

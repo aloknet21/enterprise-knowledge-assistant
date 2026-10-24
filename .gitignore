@@ -23,3 +23,6 @@ vectorstore/lancedb/
 # OS Files
 .DS_Store
 Thumbs.db
+
+# Microsoft Office temporary lock files
+~$*
